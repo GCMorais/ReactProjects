@@ -1,0 +1,12 @@
+.secondArea{
+    padding-top: 8rem;
+    height: 50vh;
+    width: 100%;
+    padding-inline: 10%;
+}
+.ContainerPost{
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 10%;
+    background-color: #383a82;
+}

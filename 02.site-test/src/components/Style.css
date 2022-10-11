@@ -2,10 +2,10 @@
     width: 100%;
     margin-inline: auto;
     padding-inline: 10%;
-    
 }
 .MenuArea ul{
     display: flex;
+    flex-wrap:wrap;
     gap: 4rem;
     list-style: none;
 }
@@ -20,7 +20,7 @@
 .MenuArea a:hover{
     color: white;
     opacity:unset;
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 .MenuArea h1{
     color: white;
@@ -43,6 +43,7 @@
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-inline: 10%;
 }
 @keyframes skew {
     0% {
@@ -51,4 +52,16 @@
     100% {
       transform: skew(-5deg, -5deg);
     }
-  }
+}
+
+
+
+@media (max-width: 850px){
+    .MenuArea{
+        font-size: 15px;
+    }
+    .MenuArea ul{
+        display: block;
+        visibility: hidden;
+    }
+}

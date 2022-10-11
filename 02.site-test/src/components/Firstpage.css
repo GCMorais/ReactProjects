@@ -19,10 +19,11 @@
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    height: 80vh;
+    height: 93.8vh;
     text-align: center;
     gap: 3rem;
 }
+
 
 .buttonPage{
     display: flex;
@@ -62,4 +63,30 @@
 .buttonPage .btn2:hover{
     opacity:unset;
     transition: all .3s ease-in-out;
+}
+
+
+
+/* Media Query */
+@media (max-width: 1360px){
+    .textPage {
+        height: 91.2vh;
+    }
+    .textPage h1{
+        font-size: 120px;
+    }
+}
+@media (max-width: 850px){
+    .textPage{
+        height: 90.7vh;
+    }
+    .textPage h1{
+        font-size: 70px;
+    }
+    .buttonPage button {
+        padding: 1rem 2rem;
+    }
+    .buttonPage .btn2 {
+        padding: 0.8rem 3.5rem;
+    }
 }
