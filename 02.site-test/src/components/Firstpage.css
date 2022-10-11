@@ -90,3 +90,13 @@
         padding: 0.8rem 3.5rem;
     }
 }
+@media (max-height: 550px){
+    .textPage h1 {
+        font-size: 80px;
+    }
+}
+@media (max-height: 330px){
+    .textPage h1 {
+        visibility: hidden;
+    }
+}
