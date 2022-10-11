@@ -1,0 +1,54 @@
+.Container{
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 10%;
+    
+}
+.MenuArea ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+.MenuArea a{
+    text-decoration: none;
+    color: white;
+    opacity: .5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.MenuArea a:hover{
+    color: white;
+    opacity:unset;
+    transition: all .3s ease-in-out;
+}
+.MenuArea h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+.MenuArea h1:hover{
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    opacity: .7;
+    cursor: pointer;
+}
+.MenuArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+@keyframes skew {
+    0% {
+      transform: skew(5deg, 5deg);
+    }
+    100% {
+      transform: skew(-5deg, -5deg);
+    }
+  }
