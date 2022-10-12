@@ -69,3 +69,12 @@ img{
         width: 31%;
     }
 }
+
+@media (max-width: 768px ){
+    .boxArea {
+        flex-flow: column;
+    }
+    .boxone, .boxtwo, .boxthree {
+        width: 20rem;
+    }
+}

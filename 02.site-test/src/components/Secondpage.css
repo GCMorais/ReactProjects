@@ -74,6 +74,8 @@
     fill: #383A82;
 }
 
+
+ /* Media Querys Width*/
 @media (max-width: 1930px){
     .ContainerPost{
         padding-inline: 20%;
@@ -93,7 +95,8 @@
         padding-inline: 20%;
     }
     .area1 h2{
-        font-size: 30px;
+        font-size: 40px;
+        width: 84%;
     }
     .area2 h3{
         font-size: 25px;
@@ -101,11 +104,39 @@
 }
 @media (max-width: 935px){
     .area2 h3 {
-        font-size: 17px;
+        font-size: 22px;
     }
 }
+
 @media (max-width: 720px){
     .area2 h3 {
-        font-size: 12px;
+        font-size: 20px;
+    }
+}
+@media (max-height: 666px){
+    .area2 h3 {
+        font-size: 13px;
+        width: 10rem;
+    }
+    .area1 h2 {
+        font-size:20px;
+    }
+    .area1{
+        gap: 1rem;
+    }
+    .secondArea {
+        padding-top: 3rem;
+    }
+}
+@media (max-height: 450px){
+    .area2 h3 {
+        width: 2rem;
+        visibility: hidden;
+    }
+    .area1 button{
+        visibility: hidden;
+    }
+    .area1 h2{
+        font-size: 20px;
     }
 }

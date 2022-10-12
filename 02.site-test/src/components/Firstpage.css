@@ -95,6 +95,14 @@
         font-size: 80px;
     }
 }
+@media (max-height: 400px){
+    .buttonPage .btn1 {
+        visibility: hidden;
+    }
+    .buttonPage button{
+        visibility: hidden;
+    }
+}
 @media (max-height: 330px){
     .textPage h1 {
         visibility: hidden;
