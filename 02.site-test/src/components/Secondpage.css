@@ -93,7 +93,7 @@
         padding-inline: 20%;
     }
     .area1 h2{
-        font-size: 40px;
+        font-size: 30px;
     }
     .area2 h3{
         font-size: 25px;
@@ -101,11 +101,11 @@
 }
 @media (max-width: 935px){
     .area2 h3 {
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 @media (max-width: 720px){
     .area2 h3 {
-        font-size: 15px;
+        font-size: 12px;
     }
 }

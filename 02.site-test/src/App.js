@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../src/components/Nav';
 import Firstpage from '../src/components/Firstpage';
 import SecondPage from './components/Secondpage';
-
+import Thirdpage from './components/Thirdpage';
 
 
 function App() {
@@ -11,6 +11,8 @@ function App() {
       <Nav />
       <Firstpage />
       <SecondPage />
+      <Thirdpage />
+      
     </div>
   );
 }

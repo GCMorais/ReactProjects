@@ -1,0 +1,71 @@
+.ContainerThird{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10rem;
+}
+
+.boxArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10rem;
+}
+.boxone, .boxtwo ,.boxthree {
+    background-color: #383a82;
+    padding: 1.5rem;
+    color: white;
+    width: 20%;
+    border-radius: 15px;
+}
+.boxone p, .boxtwo p ,.boxthree p{
+    color: white;
+    opacity: .5;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 1rem;
+    
+}
+.boxone h1, .boxtwo h1 ,.boxthree h1{
+    width: 100px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.btnthird {
+    margin-top: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: .9;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.btnthird:hover{
+    transform: scale(1.15);
+    margin-left: 7px;
+}
+.btnthird a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.btnthird a:hover{
+    opacity: .5;
+    transition: all .5s ease-in-out;
+}
+img{
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1360px){
+    .boxone, .boxtwo, .boxthree {
+        width: 31%;
+    }
+}
