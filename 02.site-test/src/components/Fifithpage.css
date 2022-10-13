@@ -1,0 +1,90 @@
+.ContainerFifith{
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+    
+}
+.Area1 , .Area2{
+    display: flex;
+    gap: 10rem;
+    flex-wrap: wrap;
+}
+.contentbox{
+    display: flex;
+    padding: 1rem;
+    gap: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+}
+.contentbox button{
+    width: 40%;
+    padding: 0.8rem;
+    font-size: 18px;
+    border: 2px solid #383a82;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    color: #383a82;
+    font-weight: 600;
+    cursor: pointer;
+    background: transparent;
+    transition: 1s;
+}
+.contentbox button:hover{
+    background-color: #383a82;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.FifithHeader{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.FifithHeader h1{
+    color: #383a82;
+    font-size: 50px;
+    opacity: .8;
+}
+.FifithHeader p{
+    opacity: .6;
+}
+.contentbox{
+    display: flex;
+    flex-flow: column;
+    width: 25rem;
+    background-color: #fafafa;
+}
+.contentbox img{
+    width: 100%;
+    border-left: 6px solid #383a82;
+    transition: 1s;
+}
+.contentbox img:hover{
+    transform: scale(1.1);
+    transition: all .6s ease-in-out;
+}
+
+.contentbox h1{
+    font-size: 1.3rem;
+    color: #383a82;
+    margin-bottom: 0.6rem;
+}
+.contentbox p{
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    opacity: .8;
+}
+.contentbox span{
+    color: #383a82;
+    font-weight: 600;
+    opacity: .9;
+    font-size: 15px;
+}
+

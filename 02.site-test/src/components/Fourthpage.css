@@ -1,0 +1,98 @@
+*{
+    font-family: sans-serif;
+}
+.ContainerFourth{
+    background-color: #383a82;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 3rem;
+    color: white;
+}
+.Areaheader{
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+.Areaheader:hover{
+    opacity: .5;
+}
+.box-Area{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    gap: 2rem;
+}
+.Areabtn{
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+}
+.Areatxt{
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    width: 50%;
+}
+.Areatxt p{
+    opacity: .5;
+    letter-spacing: 1px;
+}
+.Areatxt h2{
+    display: flex;
+    opacity: .8;
+    font-size: 25px;
+}
+.Areatxt h3{
+    font-size: 18px;
+    font-weight: 100;
+}
+.Areatxt h4{
+    color: aqua;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.Areatxt-header{
+    display: flex;
+    justify-content: space-between;
+}
+.Areabtn button{
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: none;
+    border-left: 3px solid #554c86;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.Areabtn button:hover{
+    background-color: #554c86;
+    transition: all .5s ease-in-out;
+}
+
+.btnbtn.active{
+    border-left: 3px solid aqua;
+}
+
+@media (max-width: 2560px){
+    .Areaheader {
+        margin-top: 10rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 1920px){
+    .Areaheader {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 1360px){
+    .Areaheader {
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+    }
+}
