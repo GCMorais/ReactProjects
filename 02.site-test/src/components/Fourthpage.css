@@ -3,15 +3,14 @@
 }
 .ContainerFourth{
     background-color: #383a82;
-    height: 50vh;
     display: flex;
     align-items: center;
     flex-flow: column;
     gap: 3rem;
     color: white;
+    padding: 3rem;
 }
 .Areaheader{
-    margin-top: 2rem;
     text-transform: uppercase;
     font-family: sans-serif;
     letter-spacing: 4px;
@@ -78,21 +77,39 @@
     border-left: 3px solid aqua;
 }
 
-@media (max-width: 2560px){
-    .Areaheader {
-        margin-top: 10rem;
-        margin-bottom: 2rem;
+@media (max-width: 768px){
+    .box-Area{
+        width: 100%;
     }
 }
-@media (max-width: 1920px){
-    .Areaheader {
-        margin-top: 6rem;
-        margin-bottom: 2rem;
+
+@media (max-width: 425px){
+    .ContainerFourth {
+        gap: 1.5rem;
+        height: 100%;
+        padding: 3rem;
     }
-}
-@media (max-width: 1360px){
-    .Areaheader {
-        margin-top: 3rem;
-        margin-bottom: 0rem;
+    .Areaheader h1{
+        font-size: 25px;
+    }
+    .box-Area{
+        width: 95%;
+    }
+    .Areabtn {
+        flex-flow: unset;
+        width: 100%;
+    }
+    .box-Area {
+        flex-flow: column;
+    }
+    .Areatxt {
+        width: 100%;
+        gap: 1rem;
+    }
+    .Areatxt h2 {
+        font-size: 20px;
+    }
+    .box-Area {
+        gap: 1rem;
     }
 }

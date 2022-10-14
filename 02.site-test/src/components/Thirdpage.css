@@ -19,6 +19,7 @@
     color: white;
     width: 20%;
     border-radius: 15px;
+    transition: .3s;
 }
 .boxone p, .boxtwo p ,.boxthree p{
     color: white;
@@ -45,6 +46,7 @@
     letter-spacing: 2px;
     font-family: sans-serif;
     font-size: 15px;
+    transition: .7s;
 }
 .btnthird:hover{
     transform: scale(1.15);
@@ -72,9 +74,21 @@ img{
 
 @media (max-width: 768px ){
     .boxArea {
-        flex-flow: column;
+        flex-flow:row;
+        flex-wrap: nowrap;
     }
     .boxone, .boxtwo, .boxthree {
-        width: 20rem;
+        width: 12rem;
+        transition: .3s;
+    }
+}
+@media (max-width: 650px ){
+    .boxArea {
+        flex-flow:column;
+        flex-wrap: wrap;
+    }
+    .boxone, .boxtwo, .boxthree {
+        width: 22rem;
+        transition: .3s;
     }
 }

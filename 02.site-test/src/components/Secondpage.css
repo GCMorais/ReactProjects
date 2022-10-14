@@ -38,6 +38,7 @@
     color: white;
     opacity: .5;
     cursor: pointer;
+    transition: 1s;
 }
 .area1 button:hover{
     transition: all .5s ease-in-out;
@@ -115,11 +116,11 @@
 }
 @media (max-height: 666px){
     .area2 h3 {
-        font-size: 13px;
+        font-size: 15px;
         width: 10rem;
     }
     .area1 h2 {
-        font-size:20px;
+        font-size:30px;
     }
     .area1{
         gap: 1rem;

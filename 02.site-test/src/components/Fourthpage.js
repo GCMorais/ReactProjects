@@ -1,5 +1,11 @@
 import './Fourthpage.css';
 
+const Btn = document.querySelector('.btnbtn');
+const Area = document.querySelector('.Areatxt');
+
+
+
+
 function Fourthpage(){
     return (
         <div className='ContainerFourth'>
