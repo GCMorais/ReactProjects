@@ -10,6 +10,7 @@ LandingPage feita com ReactJS.
 
     -ReactJS
     -GIT & GITHUB
+    -Node e NPM
 
 
 ## Feedback
